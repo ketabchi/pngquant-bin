@@ -1,27 +1,11 @@
 {
-	"name": "pngquant-bin",
+	"name": "pngquant-envbin",
 	"version": "7.0.2",
-	"description": "`pngquant` wrapper that makes it seamlessly available as a local dependency",
+	"description": "`pngquant` wrapper with environment variable for download enabled that makes it seamlessly available as a local dependency",
 	"license": "GPL-3.0+",
-	"repository": "imagemin/pngquant-bin",
+	"repository": "ketabchi/pngquant-bin",
 	"type": "module",
 	"exports": "./index.js",
-	"author": {
-		"name": "Kevin Mårtensson",
-		"email": "kevinmartensson@gmail.com",
-		"url": "github.com/kevva"
-	},
-	"maintainers": [
-		{
-			"name": "Sindre Sorhus",
-			"email": "sindresorhus@gmail.com",
-			"url": "sindresorhus.com"
-		},
-		{
-			"name": "Shinnosuke Watanabe",
-			"url": "github.com/shinnn"
-		}
-	],
 	"bin": {
 		"pngquant": "cli.js"
 	},
